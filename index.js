@@ -1,6 +1,6 @@
 
             function AllItems(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     for(var item of data){
@@ -21,7 +21,7 @@
 
             }
             function GetBurgerwraps(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -45,7 +45,7 @@
                 })
             }
             function GetComboMeals(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -68,7 +68,7 @@
                 })
             }
             function GetFries(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -91,7 +91,7 @@
                 })
             }
             function Getcoffees(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -114,7 +114,7 @@
                 })
             }
             function GetMcsavers(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -137,7 +137,7 @@
                 })
             }
             function GetDesserts(){
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     document.querySelector("main").innerHTML = "";
@@ -170,7 +170,7 @@
 
             function addclick(e){
                 var itemid = event.target.id;
-                fetch("../../data/mcfood.json")
+                fetch("mcfood.json")
                 .then((response)=>response.json())
                 .then((data)=>{
                     var addItem = data.find((item)=>item.id == itemid);
