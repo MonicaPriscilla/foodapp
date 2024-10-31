@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>McDelivery</title>
+        <link rel="shortcut icon" href="../Images/Foods/McDeliveryLogo.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="../../src/scripts/index.js"></script>
+    </head>
+    <body class="container-fluid" onload="bodyload()">
+        <header>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex" id="headerbox-1">
+                    <span id="logo"><img  src="../Images/Foods/McDeliveryLogo.png" width="70" height="70" /></span>
+                    <span class="me-3">
+                        <select class="form-select bg-danger">
+                            <option class="bg-light">McDelivery</option>
+                            <option class="bg-light">Dine-In</option>
+                            <option class="bg-light">On the go</option>
+                            <option class="bg-light">Take Away</option>
+                        </select>
+                    </span>
+                    <span >
+                        <select class="form-select ">
+                            <option>Your Location</option>
+                            <option> Use Current location</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="d-flex" id="headerbox-2">
+                    <span class="btn">Offers</span>
+                    <span class="btn">Restaurants Nearby</span>
+                    <span><button class="btn"><span class="bi bi-person me-3"></span></button></span>
+                    <span><button class="btn position-relative" onclick="opencart()" data-bs-toggle="collapse" data-bs-target="#opencart"><span class="bi bi-cart4 me-3"></span><span class="badge bg-danger rounded-circle position-absolute" id="cartcountspan"></span></button></span>
+                    <span><button class="btn"><span class="bi bi-search me-3"></span></button></span>                
+                    
+                </div>
+            </div>
+        </header>
+        <div class="collapse" id="opencart">
+            <div class="cartcard">
+                <div class="text-center" style="display: none;" id="cardone">
+                    <div >Oops ! <br> Your cart is empty. <br> <img src="../Images/emptycart.png" width="200" height="200"> <br>
+                         <a class="btn btn-link btn-warning" href="#side-nav" data-bs-target="#opencart" data-bs-toggle="collapse">Show me Menu</a></div>
+                </div>
+                <div class="text-center" id="cardtwo">
+                    <div class="fs-5 fw-semibold text-start">Your Cart</div>
+                    <table class="table table-hover " id="opencarttable">
+                            <tbody id="opencartbody"></tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="4" id="amt" class="text-primary"></td>
+
+                                </tr>
+                            </tfoot>
+                    </table>
+                    <div class="text-start">
+                        Select Payment Method:
+                            <ul class="list-unstyled">
+                                <li><input type="radio" name="payment" /> <span class="bi bi-credit-card"></span> Debit/Credit card</li>
+                                <li><input type="radio" name="payment" /> <span class="bi bi-bank"></span> Net Banking</li>
+                                <li><input type="radio" name="payment" /> <span class="bi bi-cash-stack"></span> Cash On Delivery</li>
+                                <li><input type="radio" name="payment" /> <span class="bi bi-wallet"></span> UPI ID</li>
+                            </ul>
+                    </div>
+                    <div>
+                        <button class="btn btn-danger text-warning" onclick="Ordercomplete()">Place Order</button>
+                        <button class="btn btn-light" data-bs-target="#opencart" data-bs-toggle="collapse">Cancel</button>
+                    </div>
+                    
+                </div>
+                <div class=" text-center" id="cardthree" style="display: none;">
+                    <div>
+                        Hurray ...! <br>Your order is placed successfully. <br> Thank you & Visit us soon. <br><a href="#" class="fs-6 fw-lighter text-dark" data-bs-toggle="collapse" data-bs-target="#opencart">Close</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="ads">
+            <div class="carousel mt-2 mb-2" id="ads-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="../Images/Foods/mcbanner.jpeg" class="d-block w-100" alt="First slide" /></div>
+                    <div class="carousel-item"><img src="../Images/Foods/mcbanner1.jpeg" class="d-block w-100" alt="second slide" /></div>
+                    <div class="carousel-item"><img src="../Images/Foods/mcbanner2.jpeg" class="d-block w-100" alt="thrid-slide" /></div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="row p-4" id="menu">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="fs-3 fw-bold m-4">Our Menu</span>
+                        <div class="mt-4 ms-4">
+                            <span class="btn rounded rounded-4 bg-white me-2"><span class="bi bi-percent text-warning"></span> Popular</span>
+                            <span class="btn rounded rounded-4 bg-white me-2"><span class="bi bi-tags-fill text-warning"></span> Deals</span>
+                            <span class="btn rounded rounded-4 bg-white"><span class="bi bi-stars text-warning"></span> New launch</span>
+                        </div>
+                    </div>
+                    <div class="search-box d-flex">
+                        <input type="text" placeholder="search here" class="form-control"><button class="btn "><span class="bi bi-search text-warning"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 m-2 p-3" id="side-nav">
+                    <div class="navbar-nav d-flex flex-column align-items-start">
+                        <div class="nav-item btn btn-light" onclick="GetComboMeals()"><img src="../Images/Foods/combologo.png" width="70" class="rounded rounded-5"/> Mc Donald's Combos</div>
+                        <div class="nav-item btn" onclick="GetBurgerwraps()"><img src="../Images/Foods/burgerlogo.png" width="70" class="rounded rounded-5"/> Burgers & Wraps</div>
+                        <div class="nav-item btn" onclick="GetFries()"><img src="../Images/Foods/frieslogo.png" width="70" class="rounded rounded-5"/> Fries & Sides</div>
+                        <div class="nav-item btn" onclick="Getcoffees()"><img src="../Images/Foods/coffeelogo.png" width="70" class="rounded rounded-5"/> Coffee & Beverages</div>
+                        <div class="nav-item btn" onclick="GetMcsavers()"><img src="../Images/Foods/saverlogo.png" width="70" class="rounded rounded-5"/> McSave Combos</div>
+                        <div class="nav-item btn" onclick="GetDesserts()"><img src="../Images/Foods/dessertlogo.png" width="70" class="rounded rounded-5"/> Deserts</div>
+                        
+                    </div>
+                </div>
+                <div class="col-9">
+                    <main>
+                        
+                    </main>
+                </div>
+                
+            </div>
+            <div class="row " id="delivery-details">
+                <span class="fs-5 fw-bold mb-2">McDelivery India - Order Food Online</span>
+                <p>Waiting to sink your teeth into just about anything from the McDonald’s food menu? Well, whatever the excuse, there is just one thing to do, and that is to order food online from the McDelivery website or the McDelivery app! We are without a doubt one of the most popular fast-food restaurants in the country, satiating people’s hunger and cravings and bringing a smile on their faces. And we are proud to say that we have been at it since about 25 years now! Isn’t that something?</p>
+
+                    <p>When at McDonald’s, we have you covered with delicious items that are absolute value for money. Whether it is for breakfast, lunch, dinner or just a snack in-between your online meetings or classes, we have something for everyone, kids, and grown-ups alike. What’s not to love about that? The deliciousness that is the McDonald’s food menu has an incredibly wide variety of both vegetarian and non-vegetarian options, mouth-watering value meals and gourmet meals, burgers and wraps, choicest of desserts and beverages, all of which can match with any level of hunger pangs. So, bring it on!</p>
+                    
+                    <p>Dive into the McDonald's Indian Menu to tease your tastebuds and satiate that hunger! From The McSpicy Paneer burger to, Chicken Wrap from the McAloo Tikki Burger to the Gourmet Burger Collection, you are spoilt for choice. Looking for a hearty Indian breakfast option? Then try our perfectly seasoned McEgg Burger served with a side of buttered buns. Combine it with a cup of the McDonald’s McCafe and it’s a match made in heaven. One of the most popular items from our Indian menu is the ‘Shake Shake Fries’. The spicy piri piri seasoning combined with some good ol’ McDonald’s Fries is a definite must-have. The hot desi spices and flavours of the McDonald’s Indian Menu creates this symphony of deliciousness in your mouth leaving you craving for more. Order your meals online from the McDelivery website or app and satisfy your cravings for all things yummy.</p>
+                    
+                    <p>When McDonald’s first opened, we started with a simple menu of just burgers, fries and beverages. And after all these years, sometimes, our customers want just that - a good wholesome flavour-loaded burger. So, order your McDonald’s burger online and eat it like you mean it.</p>
+                    
+                    <p>Unlike many other food delivery websites, we at McDonalds’s have made ordering food online an experience that can be best described as - easy-peasy. Here’s how you go about it- select the food you crave, next step is to take your pick from the choice of add-ons, drink, side and dessert. Then add to cart, choose mode of payment and voila, you have placed your fast-food order online and your McDonald’s food is on its way! You can also track your order as it comes to you.</p>
+                    
+                    <p>Online food delivery is a whole new way to love McDonald’s. So, what are you waiting for? It’s McDonald’s o’clock! Order your meal now and allow us to do what we love doing - delivering happiness.</p>
+                    
+                    <p>Match Time Sharers</p>
+            </div>
+        </section>
+        <div id="qrcode">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-2 mt-4">
+                    <img src="../Images/Foods/qr code.png" width="150" height="150" >
+                    <p class="fs-5 m-2 text-white">Click on QR Code to enlarge.</p>
+                </div>
+                <div class="col-4 mt-4 fs-5 ">
+                    <p class="text-danger fw-bold"> DISCOVER WITH US</p>
+                    <p>Tell us about your experience. <br>Scan this QR code to discover more with us.</p>
+                    <button class="btn btn-dark rounded rounded-2">Download App</button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-div">
+                <div id="footer-links">
+                    <a href="#">Privacy Policy</a> | <a href="#">Feedback</a> | <a href="#">Terms & Conditions</a> | <a href="#">Corporate Website</a>| <a href="#">Faq</a>| <a href="#">Bug Bounty</a>| <a href="#">Site Map</a>| <a href="#">veg Burgers</a>| <a href="#">Non Veg Burgers</a>| <a href="#">Nutrition info</a>| <a href="#">Birthday Party</a>| <a href="#">All Restaurants</a>
+                </div>
+                <div id="footer-social">
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-instagram"></span>
+                    <span class="bi bi-twitter"></span>
+                </div>
+                <div id="footer-last">
+                    <p >An Average active adult requires 2,000 Kcal energy per day, however, calorie needs may vary.</p>
+                    <p >FSSAI Central License Number : 10014022002648</p>
+                    <p class=" fw-bold text-white">Copyright  2024  H.R.P.L</p>
+                </div>
+            </div>
+            
+        </footer>
+
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
