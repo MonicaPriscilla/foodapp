@@ -1,0 +1,609 @@
+[
+    {
+        "id":1,
+        "name":"Mc Chicken Kebab Burger",
+        "price":75,
+        "image":"../../public/Images/Foods/burger.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"Introducing the new Chicken Kebab Burger which has the perfect balance of a crispy fried chicken patty, the crunch of onions and the richness of creamy sauce."
+    },
+    {
+        "id":2,
+        "name":"Mc Chicken Fiesta Burger",
+        "price":142,
+        "image":"../../public/Images/Foods/burger1.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"Savour your favourite Mc Chicken burger with the spicy delight of Chipotle sauce, sliced onions, along with lettuce."
+    },
+    {
+        "id":3,
+        "name":"Mc Veggie Fiesta Burger",
+        "price":150,
+        "image":"../../public/Images/Foods/burger2.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"Savour your favourite Mc Veggie burger with the delight of Cocktail sauce, jalapenoes, sliced onions along with lettuce."
+    },
+    {
+        "id":4,
+        "name":"Mexican McAloo Tikki Double Patty Burger",
+        "price":93,
+        "image":"../../public/Images/Foods/burger3.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"A fusion of International taste combined with your favourite aloo tikki now with two patties"
+    },
+    {
+        "id":5,
+        "name":"McChicken burger",
+        "price":142,
+        "image":"../../public/Images/Foods/burger4.jpeg",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"Enjoy the classic, tender chicken patty with creamy mayonnaise and lettuce in every bite"
+    },
+    
+    {
+        "id":6,
+        "name":"MC Aloo Tikki Burger",
+        "price":70,
+        "image":"../../public/Images/Foods/burger5.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"The World's favourite Indian burger! A crispy Aloo patty, tomato mayo sauce & onions"
+    },
+    
+    {
+        "id":7,
+        "name":"McVeggie Burger",
+        "price":149,
+        "image":"../../public/Images/Foods/burger6.jpeg",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"Savour your favorite spiced veggie patty, lettuce, mayo, between toasted sesame buns in every bite"
+    },
+    {
+        "id":8,
+        "name":"McSpicy Deluxe Chicken Burger",
+        "price":233,
+        "image":"../../public/Images/Foods/burger7.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"Indulge in a burger made with a spicy and crispy Chicken Patty, Chipotle Sauce, Tomatos, Lettuce & Jalapenos."
+    },
+    {
+        "id":9,
+        "name":"Corn & Cheese Burger",
+        "price":152,
+        "image":"../../public/Images/Foods/burger8.jpeg",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"A juicy corn and cheese patty, topped with extra cheese, Cocktail sauce, with some heat from jalapenos & crunch from onions        "
+    },
+    {
+        "id":10,
+        "name":"McSpicy Paneer Burger",
+        "price":215,
+        "image":"../../public/Images/Foods/burger9.jpeg",
+        "category":"Burgers & Wraps",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"Indulge in rich & filling spicy paneer patty served with creamy sauce, and crispy lettuce—irresistibly satisfying!"
+    },
+    {
+        "id":11,
+        "name":"Fries (Large)",
+        "price":139,
+        "image":"../../public/Images/Foods/Lfries.png",
+        "category":"Fries & Sides",
+        "sub_category":"Fries",
+        "type":"Veg",
+        "description":"World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness."
+    },
+    {
+        "id":12,
+        "name":"Fries (Medium)",
+        "price":119,
+        "image":"../../public/Images/Foods/Mfries.png",
+        "category":"Fries & Sides",
+        "sub_category":"Fries",
+        "type":"Veg",
+        "description":"World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness."
+    },
+    {
+        "id":13,
+        "name":"Fries (Regular)",
+        "price":78,
+        "image":"../../public/Images/Foods/Rfries.png",
+        "category":"Fries & Sides",
+        "sub_category":"Fries",
+        "type":"Veg",
+        "description":"World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness."
+    },
+    {
+        "id":14,
+        "name":"Classic Cheese Fries",
+        "price":155,
+        "image":"../../public/Images/Foods/Cfries.png",
+        "category":"Fries & Sides",
+        "sub_category":"Fries",
+        "type":"Veg",
+        "description":"The world famous, crispy golden Fries, served with delicious cheese sauce with a hint of spice. Contains cheese & mayonnaise"
+    },
+    {
+        "id":15,
+        "name":"Piri Piri Spice Mix",
+        "price":24,
+        "image":"../../public/Images/Foods/pirimix.png",
+        "category":"Fries & Sides",
+        "sub_category":"Sides",
+        "type":"Veg",
+        "description":"The perfect, taste bud tingling partner for our World Famous Fries. Shake Shake, and dive in!"
+    },
+    {
+        "id":16,
+        "name":"Mustard Sauce",
+        "price":19,
+        "image":"../../public/Images/Foods/mustardsauce.png",
+        "category":"Fries & Sides",
+        "sub_category":"Sides",
+        "type":"Veg",
+        "description":"Looking for a sauce to complement your meal? Look no further."
+    },
+    {
+        "id":17,
+        "name":"Barbeque Sauce",
+        "price":19,
+        "image":"../../public/Images/Foods/bbqsauce.png",
+        "category":"Fries & Sides",
+        "sub_category":"Sides",
+        "type":"Veg",
+        "description":"Looking for a sauce to complement your meal? Look no further."
+    },
+    {
+        "id":18,
+        "name":"Chicken Nuggets",
+        "price":110,
+        "image":"../../public/Images/Foods/nuggets.png",
+        "category":"Fries & Sides",
+        "sub_category":"Sides",
+        "type":"NonVeg",
+        "description":"Iconic crispy, golden fried Chicken McNuggets!"
+    },
+    {
+        "id":19,
+        "name":"Classic Corn Cup",
+        "price":90,
+        "image":"../../public/Images/Foods/corncup.png",
+        "category":"Fries & Sides",
+        "sub_category":"Sides",
+        "type":"Veg",
+        "description":"A delicious side of golden sweet kernels of corn in a cup"
+    },
+    {
+        "id":20,
+        "name":"Cappuccino Coffee",
+        "price":200,
+        "image":"../../public/Images/Foods/cappuccino.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Hot",
+        "type":"Veg",
+        "description":"A refreshing espresso shot of 100% Arabica beans, topped with steamed milk froth. "
+    },
+    {
+        "id":21,
+        "name":"Latte Coffe",
+        "price":170,
+        "image":"../../public/Images/Foods/latte.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Hot",
+        "type":"Veg",
+        "description":"A classic combination of the signature McCafe espresso, smooth milk, steamed and froth"
+    },
+    {
+        "id":22,
+        "name":"Hot Chocolate",
+        "price":198,
+        "image":"../../public/Images/Foods/hotchoco.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Hot",
+        "type":"Veg",
+        "description":"Sinfully creamy chocolate whisked with silky streamed milk"
+    },
+    {
+        "id":23,
+        "name":"Mocha Coffee",
+        "price":216,
+        "image":"../../public/Images/Foods/mocha.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Hot",
+        "type":"Veg",
+        "description":"A delight of ground Arabica espresso, chocolate syrup and steamed milk"
+    },
+    {
+        "id":24,
+        "name":"Americano Coffee",
+        "price":190,
+        "image":"../../public/Images/Foods/americano.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Hot",
+        "type":"Veg",
+        "description":"Refreshing cup of bold and robust espresso made with our signature 100% Arabica beans, combined with hot water"
+    },
+    {
+        "id":25,
+        "name":"Chocolate Frappe",
+        "price":258,
+        "image":"../../public/Images/Foods/chocofrappe.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"An induglent treat of chocolate sauce & Oreo cookies blended with soft serve, ice & topped with whipped cream"
+    },
+    {
+        "id":26,
+        "name":"McCafe-Iced Coffee",
+        "price":199,
+        "image":"../../public/Images/Foods/icedcoffee.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"Classic coffee poured over ice with soft servefor a refreshing pick-me-up"
+    },
+    {
+        "id":27,
+        "name":"American Mud Pie Shake",
+        "price":195,
+        "image":"../../public/Images/Foods/mudpie.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"Creamy and rich with chocolate and blended with nutty brownie bits for that extra thick goodness"
+    },
+    {
+        "id":28,
+        "name":"Mocha Frappe",
+        "price":278,
+        "image":"../../public/Images/Foods/mochafrappe.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"The perfect mix of indulgence and bold flavours. Enjoy a delicious blend of coffee, chocolate sauce, and soft serve"
+    },
+    {
+        "id":29,
+        "name":"Mango Smoothie",
+        "price":180,
+        "image":"../../public/Images/Foods/mangosmoothie.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"A delicious mix of mangoes, soft serve mix and blended ice"
+    },
+    {
+        "id":30,
+        "name":"Moxed Berry Smoothie",
+        "price":200,
+        "image":"../../public/Images/Foods/berrysmoothie.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"A mix of mixed berries, blended together with our creamy soft serve"
+    },
+    {
+        "id":31,
+        "name":"Iced Americano Coffee",
+        "price":180,
+        "image":"../../public/Images/Foods/icedamericano.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"Signature Arabica espresso shot mixed with ice for an energizing experience"
+    },
+    {
+        "id":32,
+        "name":"Berry Lemonade",
+        "price":132,
+        "image":"../../public/Images/Foods/berrylemonade.png",
+        "category":"Coffee & Beverages (Hot and Cold)",
+        "sub_category":"Cold",
+        "type":"Veg",
+        "description":"A refreshing drink, made with the delicious flavors of berries."
+    },
+    {
+        "id":33,
+        "name":"Brownie Hot Fudge",
+        "price":148,
+        "image":"../../public/Images/Foods/bfudge.png",
+        "category":"Desserts",
+        "sub_category":"Desserts",
+        "type":"Veg",
+        "description":"Luscious chocolate brownie and hot-chocolate fudge to sweeten your day"
+    },
+    {
+        "id":34,
+        "name":"Mc Flurry Orreo",
+        "price":120,
+        "image":"../../public/Images/Foods/mcflurryorreo.png",
+        "category":"Desserts",
+        "sub_category":"Desserts",
+        "type":"Veg",
+        "description":"Delicious soft serve meets crumbled oreo cookies, a match made in dessert heaven. Share it, if you can."
+    },
+    {
+        "id":35,
+        "name":"Soft Serve Strawberry",
+        "price":56,
+        "image":"../../public/Images/Foods/softservestrawberry.png",
+        "category":"Desserts",
+        "sub_category":"Desserts",
+        "type":"Veg",
+        "description":"The cool vanilla soft serve ice cream with twirls of strawberry syrup."
+    },
+    {
+        "id":36,
+        "name":"Soft Serve Fudge",
+        "price":56,
+        "image":"../../public/Images/Foods/softservefudge.png",
+        "category":"Desserts",
+        "sub_category":"Desserts",
+        "type":"Veg",
+        "description":"A sinful delight, soft serve topped with delicious, gooey hot chocolate fudge. Always grab an extra spoon. "
+    },
+    {
+        "id":37,
+        "name":"Black Forest Mc Flurry",
+        "price":112,
+        "image":"../../public/Images/Foods/mcflurrybf.png",
+        "category":"Desserts",
+        "sub_category":"Desserts",
+        "type":"Veg",
+        "description":"A sweet treat to suit your every mood"
+    },
+    {
+        "id":38,
+        "name":"Blueberry Cheese Cake",
+        "price":229,
+        "image":"../../public/Images/Foods/bbcheesecake.png",
+        "category":"Desserts",
+        "sub_category":"Cakes",
+        "type":"NonVeg",
+        "description":"A sweet treat to suit your every mood"
+    },
+    {
+        "id":39,
+        "name":"Chocolate Express Cake",
+        "price":159,
+        "image":"../../public/Images/Foods/chococake.png",
+        "category":"Desserts",
+        "sub_category":"Cakes",
+        "type":"NonVeg",
+        "description":"This rich chocolate cake is topped with chocolate shavings, perfect for all chocolate lovers"
+    },
+    {
+        "id":40,
+        "name":"Chocochip Muffin",
+        "price":119,
+        "image":"../../public/Images/Foods/chocochipmuffin.png",
+        "category":"Desserts",
+        "sub_category":"Cakes",
+        "type":"NonVeg",
+        "description":"Enjoy a dense chocochip muffin, with melty chocolate chips for a choco-lover's delight"
+    },
+    {
+        "id":41,
+        "name":"Vanilla Chocochip Muffin",
+        "price":129,
+        "image":"../../public/Images/Foods/vanilamuffin.png",
+        "category":"Desserts",
+        "sub_category":"Cakes",
+        "type":"NonVeg",
+        "description":"Sweet, soft, and fluffy vanilla flavoured chocolate chip muffins are perfect accompaniment with hot coffee!"
+    },
+    {
+        "id":42,
+        "name":"Mexican Chicken Wrap",
+        "price":190,
+        "image":"../../public/Images/Foods/mcwrap.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Wraps",
+        "type":"NonVeg",
+        "description":"A mexican twist of the classic chicken patty wrap with onions and lettuce, making every bite a filling one"
+    },
+    {
+        "id":43,
+        "name":"Mexican Veggie Wrap",
+        "price":180,
+        "image":"../../public/Images/Foods/mvwrap.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Wraps",
+        "type":"Veg",
+        "description":"A mexican twist of a corn and cheese patty wrap with onions and lettuce, making every bite a filling one"
+    },
+    {
+        "id":44,
+        "name":"Big Spicy Paneer Wrap",
+        "price":230,
+        "image":"../../public/Images/Foods/paneerwrap.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Wraps",
+        "type":"Veg",
+        "description":"Experience indulgence in every bite with a wrap made of crispy, spicy paneer patty, roasted chipotle sauce, lettuce, onions, & cheese."
+    },
+    {
+        "id":45,
+        "name":"Big Spicy Chicken Wrap",
+        "price":249,
+        "image":"../../public/Images/Foods/chickenwrap.png",
+        "category":"Burgers & Wraps",
+        "sub_category":"Wraps",
+        "type":"Veg",
+        "description":"Savour a delicious wrap made with a spicy, crispy chicken patty, roasted chipotle sauce, lettuce, onions, & cheese."
+    },
+    {
+        "id":46,
+        "name":"McChicken Burger Meal",
+        "price":329,
+        "image":"../../public/Images/Foods/cmeal.png",
+        "category":"Meals",
+        "sub_category":"Meals",
+        "type":"NonVeg",
+        "description":"Your favorite McChicken Burger + Fries (M) + Drink of your choice in a new, delivery friendly, resuable bottle."
+    },
+    {
+        "id":47,
+        "name":"Mcveggie Burger Meal",
+        "price":279,
+        "image":"../../public/Images/Foods/vmeal.png",
+        "category":"Meals",
+        "sub_category":"Meals",
+        "type":"Veg",
+        "description":"Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice in a new, delivery friendly, resuable bottle."
+    },
+    {
+        "id":48,
+        "name":"McAloo Tikki Burger Meals",
+        "price":0,
+        "image":"../../public/Images/Foods/ameal.png",
+        "category":"Meals",
+        "sub_category":"Meals",
+        "type":"Veg",
+        "description":"Enjoy a delicious combo of McAloo Tikki Burger + Fries (M) + Beverage of your choice in a new, delivery friendly, reusable bottle."
+    },
+    {
+        "id":49,
+        "name":"McChicken Burger + McSpicy Chicken Burger",
+        "price":290,
+        "image":"../../public/Images/Foods/mcsaver1.png",
+        "category":"McSaver Combos",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"The ultimate chicken combo made just for you. Get the top selling McChicken with the McSpicy Chicken Burger."
+    },
+    {
+        "id":50,
+        "name":"McVeggie Burger + McAloo Tikki Burger",
+        "price":190,
+        "image":"../../public/Images/Foods/mcsaver2.png",
+        "category":"McSaver Combos",
+        "sub_category":"Burgers",
+        "type":"Veg",
+        "description":"A delectable patty filled with potatoes, peas, carrots and tasty Indian spices. Topped with crispy lettuce, mayonnaise, makes our iconic McVeggie and combo with our top selling McAloo Tikki Burger."
+    },
+    {
+        "id":51,
+        "name":"McAloo Tikki Burger + Veg Pizza McPuff + Coke",
+        "price":161,
+        "image":"../../public/Images/Foods/mcsaver3.png",
+        "category":"McSaver Combos",
+        "sub_category":"Meals",
+        "type":"Veg",
+        "description":"The ultimate veg combo made just for you. Get the top selling McAloo Tikki served with Veg Pizza McPuff and Coke."
+    },
+    {
+        "id":52,
+        "name":"McChicken Burger + Veg Pizza McPuff",
+        "price":170,
+        "image":"../../public/Images/Foods/mcsaver4.png",
+        "category":"McSaver Combos",
+        "sub_category":"Burgers",
+        "type":"NonVeg",
+        "description":"Tender and juicy chicken patty cooked to perfection, with creamy mayonnaise and crunchy lettuce adding flavour to each bite. Served with Veg Pizza McPuff."
+    },
+    {
+        "id":53,
+        "name":"McSaver Fries (R )+ Coke",
+        "price":104,
+        "image":"../../public/Images/Foods/mcsaver5.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"McSaver Fries (R ) with Coke"
+    },
+    {
+        "id":54,
+        "name":"2 Iced Coffee",
+        "price":237,
+        "image":"../../public/Images/Foods/mcsaver6.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"2 Iced Coffee"
+    },
+    {
+        "id":55,
+        "name":"2 McFlurry Oreos (s)",
+        "price":155,
+        "image":"../../public/Images/Foods/mcsaver7.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"Delicious soft serve meets crumbled oreo cookies, a match made in dessert heaven. Make it double with this combo!"
+    },
+    {
+        "id":56,
+        "name":"2 Cappuccino (s)",
+        "price":237,
+        "image":"../../public/Images/Foods/mcsaver8.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"2 Cappuccino "
+    },
+    {
+        "id":57,
+        "name":"2 Soft Serve Hot Fudge (M)",
+        "price":155,
+        "image":"../../public/Images/Foods/mcsaver9.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"A sinful delight, soft serve topped with delicious, gooey hot chocolate fudge. So good you won't be able to stop at one!"
+    },
+    {
+        "id":58,
+        "name":"2 Fries(R)",
+        "price":111,
+        "image":"../../public/Images/Foods/mcsaver10.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"World Famous Fries, crispy, golden, lightly salted and fried to perfection! Double your happiness with this fries combo."
+    },
+    {
+        "id":59,
+        "name":"McSpicy Chicken Burger + Mexican Cheese Fries",
+        "price":272,
+        "image":"../../public/Images/Foods/mcsaver11.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"NonVeg",
+        "description":"Tender and juicy chicken patty coated in spicy, crispy batter topped with a creamy sauce and crispy shredded lettuce will have you craving for more. Served with Mexican Cheese Fries."
+    },
+    {
+        "id":60,
+        "name":"2 Cokes",
+        "price":163,
+        "image":"../../public/Images/Foods/mcsaver12.png",
+        "category":"McSaver Combos",
+        "sub_category":"Combos",
+        "type":"Veg",
+        "description":"The perfect companion to your burger, fries and everything nice. Double it up with this combo."
+    }
+
+    
+    
+    
+    
+]
